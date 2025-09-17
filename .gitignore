@@ -1,0 +1,76 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+
+# Data / datasets (optional — keep if you store datasets elsewhere)
+datasets/
+logs/
+wandb/
+*.tfrecord
+*.h5
+*.npz
+
+# Model checkpoints
+checkpoints/
+checkpoints_large/
+checkpoints_small/
+*.pth
+*.pt
+*.onnx
+*.engine
+*.ckpt
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jetson/TensorRT build artifacts
+*.plan
+*.trt
+*.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
